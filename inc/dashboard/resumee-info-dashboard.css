@@ -1,0 +1,234 @@
+.getting-started {
+    padding: 50px 20px;
+    max-width: 1080px;
+    margin: 0 auto;
+    line-height: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.intro h2{
+    font-size: 2rem;
+    color: #394f5a;
+}
+
+.intro__version {
+	font-size: 1rem;
+    color: #7695a5;
+}
+
+.theme__cta--download--pro {
+    background-color: #F44336;
+    border-color: #F44336;
+    color: #fff;
+    padding: .5em 1em;
+    border: 1px solid #f44336;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+    transition: all .2s ease-in;
+    text-decoration: none;
+    margin-right: .5em;
+}
+
+.theme__cta--download--pro:hover{
+    color: #fff;
+    background-color: #1fa45c;
+    border-color: #1fa45c;
+}
+
+
+.theme__cta--demo{
+    padding: .5em 1em;
+    color: #394f5a;
+    border: 1px solid #b5d2e1;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.resumee__upgrade-info-box {
+    background-color: #f2f6f8;
+    padding: 2em 4em;
+    margin: 5em 0;
+    border-radius: 2px;
+}
+
+.block--pro {
+    padding-top: 2.5rem;
+    text-align: right;
+}
+
+.dashboard__why_buy {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1%;
+    color: #607D8B;
+}
+
+.dashboard-upgrade-left img {
+    float: left;
+    width: 50%
+}
+
+
+.getting-started h2,
+.getting-started h3{
+    color: #323b43;
+}
+.appearance_page_resumee-getting-started #wpcontent {background-color:#ffffff;}
+.getting-started__header {margin-bottom: 3rem;}
+
+
+
+.dashboard__block {
+	padding-top: 30px;
+}
+
+.block--pro img {
+    width: 50%;
+}
+
+
+.dashboard__block h3{
+	font-size:1.2rem;
+	border-bottom: 1px solid #e8e8e8;
+    padding-bottom: .85rem;
+}
+
+.dashboard-upgrade-button {
+    color: #fff;
+    font-size: .875rem;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-radius: .2em;
+    background-color: #0176ff;
+}
+
+.dashboard-upgrade-title{display: inline-block; font-size:1.15rem;}
+
+.dashboard-upgrade-benefit{
+	border-top: 1px solid #e1eef4;
+    padding-top: 1em;
+}
+
+.dashboard-upgrade-right {
+    line-height: 1.2;
+}
+
+.dashboard-upgrade-right {
+    float: left;
+    margin-top: -1em;
+    padding-left: 4%;
+}
+
+.dashboard_div_divider {
+    padding: 5% 0;
+}
+
+.dashboard-upgrade-button a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s ease all;
+    cursor: pointer;
+}
+
+.dashboard-upgrade-button:hover {
+    opacity: .5;
+    transition: .5s ease all;
+    cursor: pointer;
+}
+
+.dashboard-upgrade-left {
+    padding-left: 0;
+}
+
+.flexify--center {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dashboard-cta-right {
+    text-align: right;
+}
+
+.text-block {
+    margin-bottom: 4em;
+}
+
+.no-top-margin{margin-top:0;}
+.no-bottom-margin{margin-bottom:0;}
+
+.club-discount {
+    background: #dfeff1;
+    border: dashed 2px #2196F3;
+    padding: 15px;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.dashboard-upgrade-benefit li:before {
+    content: "\f147";
+    position: relative;
+    padding-right: 4%;
+    text-align: center;
+    text-indent: 0;
+    font: 400 18px/1 dashicons;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#13cb6e;
+}
+
+.dashboard__blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.clearfix {content: "";display: block;height: 0;clear: both;visibility: hidden;}
+
+@media only screen and (min-width: 320px) and (max-width: 848px) {
+
+        .dashboard-upgrade-left img {
+            float: none;
+            width: 90%;
+        }
+
+        .dashboard-upgrade-right {
+            float: none;
+            width: 100%;
+            margin:0;
+            padding: 5% 0;
+        }
+
+        .dashboard-upgrade-button {
+            padding: 15px 20px;
+        }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+        .dashboard__blocks {
+            display: block;
+        }
+}
